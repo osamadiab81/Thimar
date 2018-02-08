@@ -41,6 +41,15 @@
 html,
 body{overflow-x: hidden;}
 */
+
+.language{
+	color: red !important;
+	font-size: 11px;
+	font-weight: bold;
+	width: 50px
+	
+	
+}
 body {
 	color: #777;
 	background: #fff;
@@ -148,9 +157,7 @@ textarea.form-control{
 	resize: none;
 	height: 210px;
 }
-.tg-socialicons li a.language{
-	color: #35499d !important
-}
+
 .form-control::-webkit-input-placeholder { color: #777; } /* WebKit, Blink, Edge */
 .form-control:-moz-placeholder { color: #777; } /* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder { color: #777; } /* Mozilla Firefox 19+ */
